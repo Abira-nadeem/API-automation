@@ -1,8 +1,8 @@
-Feature: api automaation 
+Feature: api automation
 
 Background: define the url 
     Given url 'https://fakerestapi.azurewebsites.net'
-    # * def timevalidator = read ('classpath:helpers/timevalidator.js')
+    
 Scenario: get list of all books 
     Given path '/api/v1/Books'
     When method Get 

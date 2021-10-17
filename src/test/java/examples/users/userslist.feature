@@ -39,7 +39,7 @@ Scenario: delete user
 
 
 
-Scenario: update user 
+Scenario: delete
     Given path 'api/users/2'
     When method delete
     Then status 204

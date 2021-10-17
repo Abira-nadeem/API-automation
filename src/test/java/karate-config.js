@@ -6,7 +6,7 @@ function fn() {
   }
   var config = {
 
-    //  apiUrl:'https://jsonplaceholder.typicode.com'
+    //apiUrl:'https://jsonplaceholder.typicode.com'
     env: env,
     myVarName: 'someValue'
   }
